@@ -1,8 +1,5 @@
-# Scralatch
+package com.github.madbrain.scralatch
 
-Une version de [Scratch](https://scratch.mit.edu/) pour les jeunes Scalaistes
-
-```scala
 object Example extends Scralatch {
 
   lutin("chat") {
@@ -35,5 +32,5 @@ object Example extends Scralatch {
       attend(0.1)
     }
   }
+
 }
-```
